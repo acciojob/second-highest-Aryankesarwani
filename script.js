@@ -1,5 +1,5 @@
 //your JS code here. If required.
-secondHighest(arr)=>{
+secondHighest(arr){
 	
 	let highest=-Infinity;
 	let second=-Infinity;
