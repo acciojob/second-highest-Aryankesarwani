@@ -1,13 +1,14 @@
 //your JS code here. If required.
 secondHighest(arr)=>{
-	let highest=arr[0];
-	let second=arr[0];
+	
+	let highest=-Infinity;
+	let second=-Infinity;
 	for(let x:arr){
 		if(x>highest){
 			second=highest;
 			highest=x;
 		}
-		else if(x>second){
+		else if(x>second && x<highest){
 		second=x;
 		}
 	}
